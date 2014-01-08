@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		button = (Button) findViewById(R.id.HFU_Button);
 		button.setOnClickListener(new OnClickListener() {
 			
-		@Override
+		
 		public void onClick(View arg0) {
 			Intent browserIntent =
 					new Intent(Intent.ACTION_VIEW, Uri.parse("http:/www.hs-furtwangen.de"));
